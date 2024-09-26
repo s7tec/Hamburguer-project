@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    background-color: #f1f1f1;
+    max-width: 1100px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.container-2 {
+    background-color: #f1f1f1;
+    max-width: 1100px;
+    padding: 15px 90px;
+    margin: 50px auto;
+    position: relative;
+}
+
+
+.container .catalog-snack img, .catalog-drinks img {
+    width: 150px;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 25px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 2px;
+}
+
+.navbar-container {
+    max-width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    font-weight: bold;
+    background-color: #000000;
+}
+
+nav {
+    position: relative;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+.navbar-items a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #757575;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.navbar-items .default-btn:hover {
+    background-color: #22bb5f;
+    color: #757575;
+}
+
+.main-banner {
+    font-family: "Linden Hill", serif;
+    background-position: center;
+    background-size: cover;
+    padding: 2.5rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #929191;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1 {
+    font-size: 2rem;
+}
+
+.main-banner p {
+    font-size: 1.9rem;
+}
+
+.efect {
+    background-position: center;
+    background-size: cover;
+    padding: 1.5rem ;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.catalog-snack  {
+    display:flex;
+}
+
+.catalog-snack h2  {
+    padding-bottom: 7px;
+}
+
+.catalog-snack 
+.hm-tradicional, 
+.hm-cheddar-duplo, 
+.hm-bacon, .hm-salada {
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.info-cont{
+    font-size: 13px;
+    padding: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.price {
+    padding: 5px;
+    font-size: 15px;
+    color: #929191;
+}
+
+.catalog-drinks {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.bebidas-esquerda .coca-cola, .coca-zero {
+
+    padding: 10px;
+}
+
+.bebidas-direita .guanara, .agua {
+    padding: 10px;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid#cccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 100px;
+}
